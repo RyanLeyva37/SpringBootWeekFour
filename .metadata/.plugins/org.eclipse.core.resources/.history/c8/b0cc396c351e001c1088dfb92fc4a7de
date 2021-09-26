@@ -1,0 +1,7 @@
+package com.promineotech.jeep.controller;
+
+import com.promineotech.jeep.controller.support.BaseTest;
+
+public class CreateOrderTestSupport extends BaseTest{
+
+}

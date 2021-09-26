@@ -1,0 +1,13 @@
+package com.promineotech.jeep.service;
+
+import com.promineotech.jeep.entity.Customer;
+import com.promineotech.jeep.entity.Order;
+import com.promineotech.jeep.entity.OrderRequest;
+
+public interface JeepOrderDao {
+
+	Order createOrder(OrderRequest orderRequest);
+
+	Customer fetchCustomer(String customer);
+
+}
